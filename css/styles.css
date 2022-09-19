@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.slog p {
+  background-color: #181818;
+  color: #fff;
+  font-size: 12px;
+
+  text-align: center;
+  padding: 10px;
+}
+
+.slog h2 {
+  background-color: #f9f9f9;
+  font-size: 16px;
+
+  text-align: center;
+  padding: 5px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #181818;
+
+  filter: brightness(50%);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+  margin-left: -40px;
+}
+
+.content p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35.81px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main h2 {
+  padding-top: 30px;
+  line-height: 62.78px;
+}
+
+main p {
+  font-size: 14px;
+}
+
+main > div > img {
+  padding: 15px;
+  padding-top: 59px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: #181818;
+  color: #fff;
+  font-size: 12px;
+
+  padding: 10px;
+  text-align: center;
+
+  margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+  .slog {
+    width: 100vh;
+  }
+
+  .slogan img {
+    width: 100vh;
+  }
+
+  main {
+    display: inline;
+    margin-right: -100px;
+    margin-bottom: -400px;
+
+    text-align: center;
+  }
+
+  footer {
+    position: relative;
+  }
+}
